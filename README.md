@@ -84,6 +84,12 @@ Then launch the site from your favourite browser:
 If you wish to serve the site from a different port:
 
     PORT=8000 npm start
+    
+#### Or run with http-server
+
+     ./gen-certs.sh
+
+     http-server ./ --ssl
 
 
 ## License
